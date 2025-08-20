@@ -4,7 +4,6 @@
 
 - GNU stow
 ```
-```
 home/
     /{your-user}/
         .config/
@@ -29,18 +28,14 @@ home/
                 .vimrc
 ```
 
-
-```
 ## Terminologia
 
-Pacote: Unidade que centraliza os arquivos de configurações de um determinado contexto. Exemplo: git, vim, bash, hypr, etc
+**Pacote**: Unidade que centraliza os arquivos de configurações de um determinado contexto. Exemplo: git, vim, bash, hypr, etc
 
 
 ## Colocando arquivos de configurações no projeto
 
-1. Crie a estutura dentro do diretorio
-```
-``` 
+1. Crie a estrutura dentro do diretorio
 
 `mkdir git && touch .gitconfig`
 
