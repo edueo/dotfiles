@@ -1,0 +1,9 @@
+syntax on " Enable syntax highlighting.
+filetype plugin indent on " Enable file type based options.
+set nocompatible " Don't run in backwards compatible mode.
+set autoindent " Respect indentation when starting new line.
+set expandtab " Expand tabs to spaces. Essential in Python.
+set tabstop=4 " Number of spaces tab is counted for.
+set shiftwidth=4 " Number of spaces to use for autoindent.
+set backspace=2 " Fix backspace behavior on most terminals.
+
