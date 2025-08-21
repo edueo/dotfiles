@@ -14,3 +14,4 @@ set noswapfile
 let NERDTreeShowBookmarks=1 " Display bookmarks on startup.
 autocmd VimEnter * NERDTree " Enable NERDTree on Vim startup.
 set number
+set hlsearch
