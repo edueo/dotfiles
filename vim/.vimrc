@@ -6,4 +6,11 @@ set expandtab " Expand tabs to spaces. Essential in Python.
 set tabstop=4 " Number of spaces tab is counted for.
 set shiftwidth=4 " Number of spaces to use for autoindent.
 set backspace=2 " Fix backspace behavior on most terminals.
+" set directory=$HOME/.vim/swap//
+set noswapfile
+
+"NERDTree
+"
+let NERDTreeShowBookmarks=1 " Display bookmarks on startup.
+autocmd VimEnter * NERDTree " Enable NERDTree on Vim startup.
 
