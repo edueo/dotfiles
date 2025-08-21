@@ -49,7 +49,5 @@ home/
 ## Instalar vim-plug para gerenciar plugins do vim
 
 ```
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-
-https://raw. github.com/junegunn/vim-plug/master/plug.vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.github.com/junegunn/vim-plug/master/plug.vim
 ```
