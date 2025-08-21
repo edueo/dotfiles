@@ -45,3 +45,11 @@ home/
 
 1. Clonar o projeto.
 2. Para aplicar as configurações de um pacote, executar `stow {package}`, exemplo: `stow git`
+
+## Instalar vim-plug para gerenciar plugins do vim
+
+```
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+
+https://raw. github.com/junegunn/vim-plug/master/plug.vim
+```

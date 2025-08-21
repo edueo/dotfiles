@@ -15,3 +15,13 @@ let NERDTreeShowBookmarks=1 " Display bookmarks on startup.
 autocmd VimEnter * NERDTree " Enable NERDTree on Vim startup.
 set number
 set hlsearch
+
+" Manage plugins with vim-plug
+"
+call plug#begin()
+Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-vinegar'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'junegunn/goyo.vim', { 'for': 'markdown' }
+call plug#end()
+
