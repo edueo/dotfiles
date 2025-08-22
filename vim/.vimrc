@@ -23,5 +23,6 @@ Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-vinegar'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'junegunn/goyo.vim', { 'for': 'markdown' }
+Plug 'mileszs/ack.vim'
 call plug#end()
 
