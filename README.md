@@ -51,3 +51,10 @@ home/
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.github.com/junegunn/vim-plug/master/plug.vim
 ```
+
+## Dependências de pacotes
+
+Para funcionamento de alguns plugins do vim é necessário alguns pacotes:
+
+- ack 
+
