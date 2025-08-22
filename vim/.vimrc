@@ -15,6 +15,7 @@ let NERDTreeShowBookmarks=1 " Display bookmarks on startup.
 autocmd VimEnter * NERDTree " Enable NERDTree on Vim startup.
 set number
 set hlsearch
+set clipboard=unnamed,unnamedplus " Copy into system (*, +) register.
 
 " Manage plugins with vim-plug
 "
